@@ -16,6 +16,6 @@ action "Deploy" {
   env = {
     CURRENT_BRANCH = "master"
     GIT_USER = "x-access-token:${GITHUB_TOKEN}"
-    GIT_CONFIG = ".gitshared"
+    GIT_CONFIG = "${GITHUB_WORKSPACE}/.gitshared"
   }
 }
