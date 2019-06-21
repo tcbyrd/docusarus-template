@@ -24,13 +24,13 @@ const siteConfig = {
   title: 'Docusaurus Template', // Title for your website.
   tagline: 'A template for docusaurus',
   url: 'https://tcbyrd.github.io', // Your website URL
-  baseUrl: '/docusarus-template/', // Base URL for your project */
+  baseUrl: '/docusaurus-template/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'docusarus-template',
+  projectName: 'docusaurus-template',
   organizationName: 'tcbyrd',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
