@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'Docusaurus Template', // Title for your website.
   tagline: 'A template for docusaurus',
   url: 'https://tcbyrd.github.io', // Your website URL
-  baseUrl: '/docusaurus-template', // Base URL for your project */
+  baseUrl: '/docusaurus-template/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
