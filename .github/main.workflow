@@ -14,8 +14,7 @@ action "Deploy" {
   args = "run publish-gh-pages --prefix website"
   secrets = ["GITHUB_TOKEN"]
   env = {
-    GIT_USER = "tcbyrd"
     CURRENT_BRANCH = "master"
-    USE_SSH = "true"
+    GIT_USER = "x-access-token:${GITHUB_TOKEN}"
   }
 }
